@@ -25,6 +25,10 @@
   },
   "QDRANT__LOG_LEVEL": {
     "value": "INFO",
-    "description": "Logging level. TRACE, DEBUG, INFO, WARN, ERROR."
+    "description": "Logging level. Options: TRACE, DEBUG, INFO, WARN, ERROR."
+  },
+  "QDRANT__SERVICE__API_KEY": {
+    "value": "${{secret(32)}}",
+    "description": "API key for authentication. Auto-generated 32-char secret per deployment. Sent by clients as the api-key header."
   }
 }
