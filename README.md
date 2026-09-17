@@ -6,7 +6,7 @@ High-performance vector database for AI applications. Store, search, and manage 
 
 Host your own Qdrant instance on Railway. This template provisions the Qdrant vector database with persistent storage for embeddings and metadata.
 
-[![Deploy to Railway](https://railway.app/button.svg)](https://railway.com/deploy/QDRANT_LITE)
+[![Deploy to Railway](https://railway.app/button.svg)](https://railway.com/deploy/-hQG74)
 
 ## Why Deploy
 
