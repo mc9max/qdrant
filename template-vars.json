@@ -1,0 +1,30 @@
+{
+  "PORT": {
+    "value": "6333",
+    "description": "REST API port. Railway maps this to the public domain."
+  },
+  "QDRANT__STORAGE__STORAGE_PATH": {
+    "value": "/qdrant/storage",
+    "description": "Path to store vector data on the volume."
+  },
+  "QDRANT__STORAGE__SNAPSHOT_PATH": {
+    "value": "/qdrant/storage/snapshots",
+    "description": "Path to store snapshots."
+  },
+  "QDRANT__SERVICE__HOST": {
+    "value": "0.0.0.0",
+    "description": "Bind address for the Qdrant server."
+  },
+  "QDRANT__SERVICE__HTTP_PORT": {
+    "value": "6333",
+    "description": "REST API port."
+  },
+  "QDRANT__SERVICE__GRPC_PORT": {
+    "value": "6334",
+    "description": "gRPC API port."
+  },
+  "QDRANT__LOG_LEVEL": {
+    "value": "INFO",
+    "description": "Logging level. TRACE, DEBUG, INFO, WARN, ERROR."
+  }
+}
